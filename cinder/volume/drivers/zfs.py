@@ -39,7 +39,7 @@ from cinder import interface
 from cinder import objects
 from cinder import utils
 from cinder.volume import driver
-from cinder.volume import utils as volutils
+from cinder.volume import volume_utils as volutils
 
 LOG = logging.getLogger(__name__)
 
